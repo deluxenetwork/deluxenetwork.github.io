@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeluxeNetwork - Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-image: url('hero-bg.jpg'); /* Cseréld ki a megfelelő képre */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        header {
+            background-color: rgba(46, 8, 84, 0.8); /* Sötétebb lila a fejléchez, átlátszó */
+            padding: 1em;
+            text-align: center;
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(58, 7, 81, 0.8); /* Kicsit világosabb lila a navigációhoz, átlátszó */
+            padding: 0.5em;
+            width: 100%;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 2em;
+            text-align: center;
+            flex: 1;
+        }
+
+        .card {
+            background-color: rgba(106, 13, 173, 0.8); /* Kicsit világosabb lila a kártyákhoz, átlátszó */
+            margin: 1em;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: rgba(46, 8, 84, 0.8); /* Ugyanaz a sötétebb lila, mint a fejléc */
+            padding: 1em;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DeluxeNetwork</h1>
+        <p>A legjobb Minecraft szerver</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="rolunk.html">Rólunk</a>
+    </nav>
+    <div class="container">
+        <h2>Shop</h2>
+        <div class="card">
+            <h3>VIP Rank</h3>
+            <p>Egyenlőre csak nyereményjátékokon lehet nyerni! :P</p>
+        </div>
+        <div class="card">
+            <h3>Netherite Rank</h3>
+            <p>Egyenlőre csak nyereményjátékokon lehet nyerni! :P</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 DeluxeNetwork. Minden jog fenntartva.</p>
+    </footer>
+</body>
+</html>
