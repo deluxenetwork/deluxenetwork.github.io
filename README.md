@@ -42,8 +42,8 @@ Ha szeretnél hozzájárulni a projekthez, kövesd az alábbi lépéseket:
 
 ## Kapcsolat
 
-- [Saját GitHub profilom](https://github.com/username)
-- Email: example@example.com
+- [DeluxeNetwork](https://github.com/deluxenetwork)
+- Email: deluxehalozat@gmail.com
 
 ## Licenc
 
